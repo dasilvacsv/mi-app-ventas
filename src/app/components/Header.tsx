@@ -26,26 +26,7 @@ export const Header: React.FC<HeaderProps> = ({
           </span>
         </div>
 
-        <button
-          onClick={toggleTheme}
-          className="relative p-2 rounded-full text-slate-500 dark:text-slate-400 
-                     hover:bg-slate-200 dark:hover:bg-slate-700 
-                     focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 
-                     dark:focus:ring-offset-slate-900/30 transition-all duration-200"
-          aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
-        >
-          <span className="sr-only">Cambiar tema</span> {/* Para accesibilidad */}
-          <Sun
-            size={20}
-            className={`transition-all duration-300 ease-in-out transform
-                        ${theme === 'dark' ? 'opacity-100 rotate-0 scale-100 text-amber-400' : 'opacity-0 -rotate-90 scale-0'}`}
-          />
-          <Moon
-            size={20}
-            className={`absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out transform
-                        ${theme === 'light' ? 'opacity-100 rotate-0 scale-100 text-indigo-500' : 'opacity-0 rotate-90 scale-0'}`}
-          />
-        </button>
+          
       </div>
 
       {/* Título principal y subtítulo */}
