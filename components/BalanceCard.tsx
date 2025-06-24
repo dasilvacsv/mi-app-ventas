@@ -1,6 +1,6 @@
 import React from 'react';
 import { TrendingUp, DollarSign, Banknote } from 'lucide-react'; // Banknote para Bolívares
-import { formatCurrency } from '../lib/actions';
+import { formatCurrency } from '../../lib/actions';
 
 interface BalanceCardProps {
   currentUsdBalance: number;

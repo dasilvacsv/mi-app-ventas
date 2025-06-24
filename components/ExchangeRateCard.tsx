@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowDownUp } from 'lucide-react';
-import { formatCurrency } from '../lib/actions';
+import { formatCurrency } from '../../lib/actions';
 
 interface ExchangeRateInfo {
   rate: number;

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart3, TrendingUp, ArrowRight } from 'lucide-react';
-import { formatCurrency } from '../lib/actions';
+import { formatCurrency } from '../../lib/actions';
 
 interface SummaryCardProps {
     divisasInBs: number;

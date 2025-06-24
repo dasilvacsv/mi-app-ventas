@@ -4,7 +4,7 @@ import {
     DollarSign, Coins, Banknote, CreditCard, Smartphone, ShoppingCart, TrendingUp, ArrowRightLeft, FileText,
     ChevronDown, ExternalLink, ReceiptText, RefreshCcw // Nuevos iconos
 } from 'lucide-react';
-import { formatCurrency, formatDate } from '../lib/actions'; // Asegúrate que la ruta sea correcta
+import { formatCurrency, formatDate } from '../../lib/actions'; // Asegúrate que la ruta sea correcta
 import { PDFDownloadLink, Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 
 // --- INICIO DE DEFINICIONES DE TIPOS Y COMPONENTES AUXILIARES ---

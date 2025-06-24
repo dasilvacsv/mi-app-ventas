@@ -3,8 +3,8 @@
 
 import React from 'react';
 import { Page, Text, View, Document, StyleSheet, Font, Image } from '@react-pdf/renderer';
-import { SaleRecordWithId } from '../lib/actions'; // O donde tengas este tipo
-import { formatCurrency, formatDate } from '../lib/utils'; // O donde tengas estas utilidades
+import { SaleRecordWithId } from '../../lib/actions'; // O donde tengas este tipo
+import { formatCurrency, formatDate } from '../../lib/utils'; // O donde tengas estas utilidades
 
 // --- REGISTRO DE FUENTES (CRUCIAL) ---
 // Asegúrate de que estas rutas sean accesibles por @react-pdf/renderer en tu entorno.

@@ -7,7 +7,7 @@ import { BalanceCard } from './BalanceCard'; // Asegúrate que la ruta sea corre
 import { SalesHistory } from './SalesHistory'; // Asegúrate que la ruta sea correcta
 import { MessageDisplay } from './MessageDisplay'; // Asegúrate que la ruta sea correcta
 import { LoadingScreen } from './LoadingScreen'; // Asegúrate que laruta sea correcta
-import { getDefaultUserId } from '../lib/supabaseClient'; // Asegúrate que la ruta sea correcta
+import { getDefaultUserId } from '../../lib/supabaseClient'; // Asegúrate que la ruta sea correcta
 import { 
   fetchBCVRateAction, 
   ensureBalanceRecordAction,
@@ -20,7 +20,7 @@ import {
   formatDate,
   type SaleRecordWithId,
   type SaleRecordInput
-} from '../lib/actions'; // Asegúrate que la ruta sea correcta
+} from '../../lib/actions'; // Asegúrate que la ruta sea correcta
 import { AlertTriangle, Loader2, Trash2 } from 'lucide-react'; // Para el modal
 
 interface ExchangeRateInfo {
